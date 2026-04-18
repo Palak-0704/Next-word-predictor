@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated model artifacts
+next_word_model.h5
+tokenizer.pkl
+*.keras
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
