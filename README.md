@@ -14,20 +14,6 @@ This notebook demonstrates a basic NLP workflow:
 
 The project is intentionally simple so it can be understood, run, and modified easily inside VS Code or Jupyter.
 
-## Architecture Diagram
-
-```mermaid
-flowchart TD
-	A[Training Corpus] --> B[Tokenizer]
-	B --> C[Input Sequence Generation]
-	C --> D[LSTM Model Training]
-	D --> E[Next Word Prediction]
-	D --> F[Saved Model: next_word_model.h5]
-	B --> G[Saved Tokenizer: tokenizer.pkl]
-	F --> H[Reload and Predict]
-	G --> H
-```
-
 ## Features
 
 - Notebook-based workflow for easy experimentation
